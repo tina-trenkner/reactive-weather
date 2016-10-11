@@ -25440,7 +25440,7 @@ var CityField = React.createClass({
 
 		return React.createElement("input", {
 			className: "form-control rw-city-field",
-			placeholder: "City,Country",
+			placeholder: "City,Country (no spaces needed)",
 			value: this.state.cityName });
 	}
 });
@@ -25511,7 +25511,7 @@ var SearchField = React.createClass({
 							style: searchSection,
 							className: 'form-control input-lg rw-search-field',
 							ref: 'searchInput',
-							placeholder: 'Search City',
+							placeholder: 'Search City (No Spaces Please)',
 							value: this.state.city,
 							onChange: this.handleCityChange
 						})
